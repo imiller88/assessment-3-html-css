@@ -1,0 +1,26 @@
+/* Your CSS goes here */
+
+.container {
+    padding: 10px;
+}
+
+.col-sm-4 {
+    margin-left: 10px;
+}
+
+#instructions {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.yellow-input {
+    background-color: yellow;
+    border-radius: 4px;
+}
+
+#last-name {
+    font-weight: bold;
+}
+

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>Application Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+</head>
+<body>
+    <h1 class="container">Application Form</h1>
+    <div id="instructions" class="col-sm-4">
+        If you are interested in applying to any of the available positions,
+        please fill out the following form and press submit ONLY ONCE. We look forward to your application!
+    </div>
+    <form action="/application-success" class="col-sm-4" method="POST">
+        First name: <input type="text" class="yellow-input" value="first-name"><br>
+        Last name: <input type="text" class="yellow-input" id="last-name" value="last-name"><br>
+        Salary requirement: <input type="number" class="yellow-input" value="salary-req"><br>
+        Select position: <select>
+            <option value="software-eng">Software Engineer</option>
+            <option value="qa-engineer">QA Engineer</option>
+            <option value="product-man">Product Manager</option>
+        </select><br>
+        <input type="submit" class="yellow-input" value="Submit"><br>
+    </form>
+
+</body>
+</html>
